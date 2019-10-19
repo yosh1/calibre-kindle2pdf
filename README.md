@@ -1,2 +1,14 @@
 # calibre-kindle2pdf
-Caliber library for converting books purchased on Kindle to PDF.
+Kindle書籍をPDFに変換するためのCalibreライブラリ。
+
+---
+
+## はじめに
+
+この内容は、他の方が購入したkindle本をpdf化したり、私がpdf化したものを他者に配布するものを目的としたものではありません。
+
+あくまでも個人利用が前提のものとなります。
+
+## 手順
+
+（工事中）
