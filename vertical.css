@@ -1,24 +1,30 @@
-@charset "utf-8";
-
 * {
   line-height: 150%;
 }
 
-.vertical,
-.vrtl {
+@font-face {
+  font-family: "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", "メイリオ", Meiryo, sans-serif;
+}
+
+body{
+  font-family:"ＭＳ Ｐ明朝", "MS PMincho", "ヒラギノ明朝 Pro W3", "Hiragino Mincho Pro", serif;
   writing-mode: vertical-rl;
-  -epub-writing-mode: vertical-rl;
-  -webkit-writing-mode: vertical-rl; 
   line-break: normal;
+  -epub-writing-mode: vertical-rl;
+  -webkit-writing-mode: vertical-rl;
   -epub-line-break: normal;
   -webkit-line-break: normal;
 }
 
-p {
+p{
   margin: 0;
 }
- 
-h2 {
-  margin-left: 3rem;
-  margin-top: 3rem;
+
+h2{
+  margin: 3rem 0 0 3rem;
+}
+
+.fit {
+  max-width: 100%;
+  max-height: 100%;
 }
