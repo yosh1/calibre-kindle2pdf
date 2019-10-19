@@ -1,0 +1,24 @@
+@charset "utf-8";
+
+* {
+  line-height: 150%;
+}
+
+.vertical,
+.vrtl {
+  writing-mode: vertical-rl;
+  -epub-writing-mode: vertical-rl;
+  -webkit-writing-mode: vertical-rl; 
+  line-break: normal;
+  -epub-line-break: normal;
+  -webkit-line-break: normal;
+}
+
+p {
+  margin: 0;
+}
+ 
+h2 {
+  margin-left: 3rem;
+  margin-top: 3rem;
+}
